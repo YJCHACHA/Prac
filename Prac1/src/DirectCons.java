@@ -6,7 +6,7 @@ public class DirectCons {
 	
 	//매개변수 없는 생성자
 	public DirectCons() {
-		name = "이름없음";
+		name = "이름없음;;;;;;;";
 		address = "주수없음";
 		age = 0;
 	}
