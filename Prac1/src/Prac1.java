@@ -24,6 +24,6 @@ public class Prac1 {
 		System.out.println(s);
 		tc.setData("홍길동", "서울시 중구", 25); //멤버 변수 값 할당
 		s = tc.getData(); //할당된 값 받아내기
-		System.out.println(s);
+		System.out.println(s+"aaaaaaaaaaaa");
 	}
 }
