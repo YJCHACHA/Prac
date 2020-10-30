@@ -40,9 +40,6 @@ class Child extends Father {
 public class IneritanceMain {
 
 	public static void main(String[] args) {
-		Father f = new Father();
-		f.sayGrandNumber();
-		f.sayFatherNumber();
 		Child c = new Child();
 		c.sayGrandNumber();
 		c.sayFatherNumber();
