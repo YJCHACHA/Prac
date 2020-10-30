@@ -20,6 +20,20 @@ class Father extends GrandFather {
 		for(int i=10; i<20; i++) {
 			System.out.print(i + " ");
 		}
+		System.out.println();
+	}
+}
+
+class Child extends Father {
+	public Child() {
+		System.out.println("I am a Child");
+	}
+	public void sayChildNumber() {
+		System.out.println("sayChildNumber() 메서드 호출");
+		for(int i=20; i<30; i++) {
+			System.out.print(i+ " ");
+		}
+		System.out.println();
 	}
 }
 
@@ -29,6 +43,10 @@ public class IneritanceMain {
 		Father f = new Father();
 		f.sayGrandNumber();
 		f.sayFatherNumber();
+		Child c = new Child();
+		c.sayGrandNumber();
+		c.sayFatherNumber();
+		c.sayChildNumber();
 	}
 
 }
