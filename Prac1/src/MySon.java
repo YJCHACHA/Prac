@@ -9,7 +9,5 @@ public class MySon extends MyFather{
 	public static void main(String[] args) {
 		MySon m = new MySon();
 		m.sayFatherNames();
-
 	}
-
 }
