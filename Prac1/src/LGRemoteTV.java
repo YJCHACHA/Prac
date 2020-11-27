@@ -23,8 +23,6 @@ abstract class RemoteTV implements IRemoteControl {
 	}
 }
 
-
-
 public class LGRemoteTV extends RemoteTV {
 	//추상 메서드 재정의
 	public void channelDown() {
